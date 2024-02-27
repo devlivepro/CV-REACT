@@ -81,7 +81,6 @@ const Home = () => {
                       React (70%)
                     </div>
                   </div>
-                  {/* Ajoutez d'autres compétences au besoin */}
                 </div>
               </div>
             </div>
