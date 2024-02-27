@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Nunito Sans, sans-serif;
+  background-color: #eee;
+}
+h1 {
+  color: #eee;
+}
+h2 {
+  color: #eee;
+}
+h5 {
+  color: #000000;
+}
+p {
+  color: #444;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+strong{
+    font-weight: bold;
+}
+.color-official1 {
+  color: #0d6efd;
+}
+.color-official2 {
+  color: #444;
+}
+.color-official3 {
+  color: #1e1e1e;
+}
+.color-official4 {
+  color: #eee;
+}
+.color-official5 {
+  color: #000000;
+}
+.nav-bg-color {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #EEE;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #eee;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #0d6efd;
+  transition: var(--bs-progress-bar-transition);
+}
+.footer {
+  margin-top: 20px;
+}
+.footer-links {
+  max-width: 1320px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bg-footer {
+  background-color: hsl(0, 0%, 90%) !important;
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  margin: 0 10px;
+}
+/* Pour les écrans de bureau */
+@media (min-width: 992px) {
+  header {
+    /* Styles spécifiques pour les écrans de bureau */
+    background-image: url("../img/hero-bg.jpg");
+    height: 50vh;
+    background-size: cover;
+  }
+}
