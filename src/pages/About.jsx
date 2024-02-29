@@ -12,7 +12,7 @@ const About = () => {
     const fetchData = async () => {
       const response = await fetch(
         "https://api.github.com/users/github-john-doe"
-      ); // Utilisateur GitHub url.
+      ); // User GitHub url.
       const data = await response.json();
       setUserData(data);
       setLoading(false);
@@ -20,7 +20,7 @@ const About = () => {
 
     fetchData();
   }, []);
-  // End components
+  // End
 
   return (
     <div>
