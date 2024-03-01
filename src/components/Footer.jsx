@@ -14,10 +14,12 @@ function Footer() {
         <div className="row py-5">
           {/* Première colonne */}
           <div className="col-md-3">
-            <h5>John Doe</h5>
-            <p>60 Avenue Victor Hugo</p>
-            <p>75001 Paris, France</p>
-            <p>(123) 456-7890</p>
+            <p>
+              <h5>John Doe</h5>
+              <p>228 Park Ave S, New York</p>
+              <p>NY 10003, USA</p>
+              <p>Phone: (123) 456-7890</p>
+            </p>
             <div>
               <a
                 href="https://github.com/johndoe"
@@ -41,7 +43,7 @@ function Footer() {
                 rel="noreferrer"
                 className="social-icon"
               >
-                <FontAwesomeIcon icon={faLinkedin} size="xl"/>
+                <FontAwesomeIcon icon={faLinkedin} size="xl" />
               </a>
             </div>
           </div>
@@ -54,7 +56,7 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/">Accueil</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <FontAwesomeIcon
@@ -82,7 +84,7 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/service">Legal Notice</a>
+                <a href="/legal">Legal Notice</a>
               </li>
             </ul>
           </div>
@@ -95,21 +97,21 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/portfolio/project1">Wellness area</a>
+                <a href="/blog">Wellness area</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/portfolio/project2">Fresh food</a>
+                <a href="/blog">Fresh food</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/portfolio/project3">Japanese restaurant</a>
+                <a href="blog">Japanese restaurant</a>
               </li>
             </ul>
           </div>
@@ -122,35 +124,42 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/blog/article1">Increase product sales</a>
+                <a href="/blog">Increase product sales</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/blog/article2">Learn SEO</a>
+                <a href="/blog">Learn SEO</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/blog/article3">Build a mock-up</a>
+                <a href="/blog">Build a mock-up</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/blog/article2">Learn CSS</a>
+                <a href="/blog">Learn CSS</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />{" "}
-                <a href="/blog/article3">Learn Technologies</a>
+                <a href="/blog">Learn Technologies</a>
+              </li>
+              <li>
+                <FontAwesomeIcon
+                  icon={faChevronRight}
+                  style={{ color: "#0d6efd" }}
+                />{" "}
+                <a href="/blog">Learn AI</a>
               </li>
             </ul>
           </div>
